@@ -44,7 +44,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 10px 0 15px;
+    margin: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -104,9 +104,9 @@ section {
     color: #fec138;
 }
 
-.hero-cta p {
+/* .hero-cta p {
     color: white;
-}
+} */
 
 .hero-form {
     color: #024e76;
@@ -115,7 +115,7 @@ section {
     /* border-style:  solid;
     border-width: 3px;
     border-color: #024e76; */
-    border: solid 3px #024e76;
+    border: 3px solid #024e76;
     width: 40%;
     margin: 3.5%;
 }
@@ -208,6 +208,10 @@ section {
       align-items: center;
   }
 
+  .step-text {
+    flex: 12;
+  }
+
   .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
@@ -217,7 +221,6 @@ section {
   .step-text p {
     color: #39a6b2;
     font-size: 18px;
-    flex: 12;
   }
 
   .step-img {
@@ -267,16 +270,8 @@ section {
       font-size: 17px;    
   }
 
-  .text-left {
-      text-align: left;
-  }
-
-  .text-right {
-      text-align: right;
-  }
-
   /* REACH OUT STYLES START */
-.contact {
+ .contact {
     background: #024e76;
   }
 
@@ -341,6 +336,15 @@ section {
   }
   
   /* REACH OUT STYLES END */
+
+  /* UTILITIES */
+  .text-left {
+    text-align: left;
+}
+
+    .text-right {
+        text-align: right;
+    }
 
   .flex-row {
       display: flex;
